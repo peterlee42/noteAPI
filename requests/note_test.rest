@@ -1,0 +1,14 @@
+### Get all notes ###
+GET http://localhost:3001/api/notes
+
+### Get specific note ###
+GET http://localhost:3001/api/notes/1234
+
+### Create new note ###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "",
+    "important": true
+}
